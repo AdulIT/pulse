@@ -16,6 +16,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
   },
@@ -24,5 +25,8 @@
     "not IE 11",
     "maintained node versions"
   ],
-  "dependencies": {}
+  "type": "module",
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
 }
