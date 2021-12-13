@@ -13,7 +13,7 @@ gulp.task('server', function() {
             baseDir: "src"
         },
         browser: ["chrome"],
-        open: false,
+        open: "external",
     });
 });
 
