@@ -11,7 +11,7 @@ gulp.task('server', function() {
         server: {
             baseDir: "src"
         },
-        open: 'ui'
+        open: false
     });
 });
 
